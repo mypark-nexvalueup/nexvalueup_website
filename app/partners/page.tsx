@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header"
 import { FooterInfoBar } from "@/components/layout/footer-info-bar"
+import { Breadcrumb } from "@/components/layout/breadcrumb"
 import { partners } from "@/lib/constants"
 import Image from "next/image"
 
@@ -7,6 +8,7 @@ export default function PartnersPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <Breadcrumb />
       <main className="flex-1">
         <div className="container mx-auto px-4 py-16 max-w-7xl">
           <div className="text-center mb-12 space-y-4">

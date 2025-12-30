@@ -1,3 +1,28 @@
+// Main page services (3 main services for homepage)
+export const mainServices = [
+  {
+    id: "ax",
+    slug: "ax",
+    icon: "🛡️",
+    title: "AX 기반 안전보건 통합 플랫폼 서비스",
+    summary: "산업현장의 안전·보건 리스크를 데이터로 예측·관리하는 통합 솔루션 개발",
+  },
+  {
+    id: "esg",
+    slug: "esg",
+    icon: "🌱",
+    title: "ESG 경영 컨설팅 및 플랫폼 서비스",
+    summary: "ESG·공급망 규제 대응을 지원하고, ESG 경쟁력을 높이기 위한 경영 컨설팅 및 MRV 플랫폼 개발",
+  },
+  {
+    id: "public",
+    slug: "public",
+    icon: "🏛️",
+    title: "정부 주도 공공사업",
+    summary: "정부·지자체 정책·사업의 기획·연구·운영을 지원하는 전문 서비스",
+  },
+]
+
 // Services data for NEXVALUEUP
 export const services = [
   {

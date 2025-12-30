@@ -18,7 +18,7 @@ export function HeroBanner() {
   }
 
   return (
-    <section className="relative w-full bg-gradient-to-br from-primary/5 via-background to-secondary/5">
+    <section className="relative w-full from-primary/5 via-background to-secondary/5">
       <div className="container mx-auto px-4 py-24 md:py-32 lg:py-40 max-w-7xl">
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="space-y-4 max-w-4xl">

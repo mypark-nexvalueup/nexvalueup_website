@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "NEXVALUEUP - 지속가능한 미래 가치를 설계하는 Value-up Partner",
   description: "고객들의 미래가치를 UP!하고 기업의 지속가능한 경영을 지원하는 전문 파트너",
-  generator: "v0.app",
   icons: {
     icon: [
       {
